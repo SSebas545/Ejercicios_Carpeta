@@ -1,5 +1,5 @@
 #include <stdio.h>
-/*Realizar un algoritmo que solicite los valores de un vector de 10 elementos y determine la suma de los mismos, el producto de todos los elementos, promedio entre todos los elementos, cuantos elementos se encuentran debajo de este promedio y mostrar por pantalla todo lo solicitado y ademas segun decida el usuario mostrar el vector ordenado de forma (ascendente, descendente o sin ordenar)*/
+
 int main() 
 {
     int num[10], i, sum = 0, product = 1, prom, bajo_prom = 0, opcion;
@@ -56,10 +56,6 @@ int main()
     else if (opcion == 3) 
     {
         printf("El vector no se ordenara.\n");
-        for (i = 0; i < 10; i++) 
-        {
-            printf("%d ", num[i]);
-        }
     } 
     else 
     {
@@ -70,6 +66,11 @@ int main()
     printf("El producto de los elementos es: %d\n", product);
     printf("El promedio de los elementos es: %d\n", prom);
     printf("La cantidad de elementos debajo del promedio es: %d\n", bajo_prom);
+    printf("El vector es:\n");
+    for (i = 0; i < 10; i++) 
+    {
+        printf("%d ", num[i]);
+    }
     
     return 0;
 }
