@@ -37,7 +37,7 @@ int main()
         total += vta;
         totalVendedor[vendedor - 1] += vta;
         
-        printf("✓ Registrado\n\n");
+        printf("Venta registrada\n\n");
     }
 
     for(i = 0; i < 20; i++)
