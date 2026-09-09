@@ -11,7 +11,8 @@ int main()
         fibonacci[i] = fibonacci[i - 1] + fibonacci[i - 2];
     }
     printf("La sucesion de Fibonacci hasta %d es: ", limite);
-    for (i = 0; i < limite; i++) {
+    for (i = 0; i < limite; i++) 
+    {
         printf("%d ", fibonacci[i]);
     }
     return 0;
