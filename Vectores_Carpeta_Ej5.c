@@ -12,7 +12,8 @@ int main()
         printf("Vendedor (1-20): ");
         scanf("%d", &vendedor);
         
-        if(vendedor < 1 || vendedor > 20) {
+        if(vendedor < 1 || vendedor > 20) 
+        {
             printf("Vendedor inválido. Intente de nuevo.\n");
             i--;
             continue;
@@ -21,7 +22,8 @@ int main()
         printf("Día (1-15): ");
         scanf("%d", &dia);
         
-        if(dia < 1 || dia > 15) {
+        if(dia < 1 || dia > 15) 
+        {
             printf("Día inválido. Intente de nuevo.\n");
             i--;
             continue;
@@ -40,11 +42,13 @@ int main()
 
     for(i = 0; i < 20; i++)
     {
-        if(totalVendedor[i] > mayor) {
+        if(totalVendedor[i] > mayor) 
+        {
             mayor = totalVendedor[i];
             vendedorMayor = i + 1;
         }
-        if(totalVendedor[i] < menorVta) {
+        if(totalVendedor[i] < menorVta) 
+        {
             menorVta = totalVendedor[i];
             vendedorMenor = i + 1;
         }
