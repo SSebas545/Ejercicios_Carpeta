@@ -2,8 +2,9 @@
 
 int main() 
 {
-    int num[10], i, sum = 0, product = 1, prom, bajo_prom = 0, opcion;
-
+    int num[10], i, sum = 0, product = 1, bajo_prom = 0, opcion;
+    float prom;
+    
     printf("Ingrese 10 numeros:\n");
     for (i = 0; i < 10; i++) 
     {
