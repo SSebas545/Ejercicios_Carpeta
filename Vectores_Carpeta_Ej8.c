@@ -4,7 +4,7 @@ int main()
 {
     int num[10], i, sum = 0, product = 1, bajo_prom = 0, opcion;
     float prom;
-    
+
     printf("Ingrese 10 numeros:\n");
     for (i = 0; i < 10; i++) 
     {
@@ -65,7 +65,7 @@ int main()
     
     printf("La suma de los elementos es: %d\n", sum);
     printf("El producto de los elementos es: %d\n", product);
-    printf("El promedio de los elementos es: %d\n", prom);
+    printf("El promedio de los elementos es: %.2f\n", prom);
     printf("La cantidad de elementos debajo del promedio es: %d\n", bajo_prom);
     printf("El vector es:\n");
     for (i = 0; i < 10; i++) 
